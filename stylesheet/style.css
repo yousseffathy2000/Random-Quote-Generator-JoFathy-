@@ -1,0 +1,64 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #182527;
+}
+
+h1{
+    color: #20cd8d;
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: Impact;
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 2.1875rem;
+    font-weight: 400;
+    font-family: 'Times New Roman';
+}
+
+.btn{
+    width: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial;
+    background-color: #20cd8d;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #20cd8e8f;
+    border: none;
+}
+
+.arrow{
+    width: 107.4px;
+    height: 107px;
+    background-image: url('../images/Sustainable\ Progress\ Goals\ Report.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.box{
+    width: 100%;
+    border:5px double #20cd8d;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:30px;
+    padding: 10px;
+    margin-inline:10px;
+    box-sizing: border-box;
+}
+
+#quote, #auther{
+    font-size: 2.1875rem;
+}
